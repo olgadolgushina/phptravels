@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OptionTestSuite" verbose="1">
+	
+	<test name="OptionTest">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.phptravels.optiontest.OptionTest" />
+		</classes>
+	</test>
+	
+</suite>

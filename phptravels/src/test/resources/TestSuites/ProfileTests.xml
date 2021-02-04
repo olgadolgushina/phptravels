@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ProfileTestsSuite" verbose="1">
+	
+	<test name="ProfileTests">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.phptravels.profiletests.ProfileTests" />
+		</classes>
+	</test>
+	
+</suite>

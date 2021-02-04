@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeLogInTestSuite" verbose="1">
+	
+	<test name="NegativeLogInTest">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.phptravels.logintests.NegativeLogInTest" />
+		</classes>
+	</test>
+	
+</suite>

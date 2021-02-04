@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BookingTestSuite" verbose="1">
+	
+	<test name="BookingTest">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.phptravels.bookingtest.BookingTest" />
+		</classes>
+	</test>
+	
+</suite>

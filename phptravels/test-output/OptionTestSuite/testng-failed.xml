@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OptionTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OptionTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.phptravels.optiontest.OptionTest">
+        <methods>
+          <include name="optionTest"/>
+          <include name="methodsetUp"/>
+        </methods>
+      </class> <!-- com.phptravels.optiontest.OptionTest -->
+    </classes>
+  </test> <!-- OptionTest(failed) -->
+</suite> <!-- Failed suite [OptionTestSuite] -->

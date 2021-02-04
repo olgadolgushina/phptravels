@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BookingTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BookingTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.phptravels.bookingtest.BookingTest">
+        <methods>
+          <include name="methodsetUp"/>
+          <include name="bookingTest"/>
+        </methods>
+      </class> <!-- com.phptravels.bookingtest.BookingTest -->
+    </classes>
+  </test> <!-- BookingTest(failed) -->
+</suite> <!-- Failed suite [BookingTestSuite] -->

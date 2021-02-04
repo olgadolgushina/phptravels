@@ -1,0 +1,5 @@
+no,username,password,expectedMessage,description
+1,incorrectUsername,demouser,Invalid Email or Password,incorrect username
+2,user@phptravels.com,incorrectPassword,Invalid Email or Password,incorrect password
+3,,demouser,Invalid Email or Password, empty username
+4,user@phptravels.com,,Invalid Email or Password,empty password
